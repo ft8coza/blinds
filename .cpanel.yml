@@ -1,0 +1,13 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/qfpuksur/public_html/blindshelderberg/
+    - /bin/cp -R contact $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R mail $DEPLOYPATH
+    - /bin/cp -R scss $DEPLOYPATH
+    - /bin/cp *.* $DEPLOYPATH
+    
